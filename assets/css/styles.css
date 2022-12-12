@@ -1,0 +1,205 @@
+header
+{
+    text-align: center;
+}
+
+h1
+{
+    /*font-family:'Times New Roman', Times, serif;*/
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   /* color: white;*/
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 45%;
+}
+
+.i-email
+{
+    margin-left: 46%;
+    /*margin-right: 45%;*/
+}
+
+body
+{
+    /*background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(132, 2, 2) 50%, rgb(0, 0, 0) 100%);*/
+    background: linear-gradient(90deg, rgb(110, 3, 3) 0%, rgb(241, 161, 161) 50%, rgb(110, 3, 3) 100%);
+    margin: auto;
+}
+
+.imageBanner
+{
+    margin-top: -16px;
+    width: 100%;
+    height: 600px;
+}
+
+.imageLife
+{
+    display: block;
+    width: 30%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAlbum1
+{
+    display: block;
+    width: 30%;
+    max-width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+.imageAlbum2
+{
+    display: block;
+    width: 30%;
+    max-width: 50%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: auto;
+}
+
+nav 
+{
+    font-family:'Times New Roman', Times, serif;
+    /*color: white;*/
+    margin-bottom: 15px;
+    text-align: center;
+    padding-right: 40px;
+    /*border: 1px  solid white;*/
+}
+
+nav ul
+{
+    list-style-type: none;
+    font-weight: bold;
+    margin: 0px;
+    width: 20%;
+    padding: 0px;
+    /*border: 2px white;
+    padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li
+{
+    padding: 10px;
+    display: inline-block;
+    width: 10%;
+}
+
+nav li:hover
+{
+    font-weight: bold; 
+    margin: 0;
+    text-align: center;
+}
+
+input, label
+{
+    display: inline-block;
+    width: auto;
+    margin-left: 20%;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+thead
+{
+    background-color: rgb(22, 179, 142);
+    text-align: left;
+    text-transform: uppercase;
+}
+
+td, th
+{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
+
+tbody tr:nth-of-type(even)
+{
+    background-color: rgba(115, 222, 174, 0.925);
+}
+
+tbody tr:nth-of-type(odd)
+{
+    background-color: rgba(230, 105, 105, 0.979);
+}
+
+footer
+{   
+    padding-top: 100px;
+
+}
+
+@media (min-width: 481px) and (max-width: 768px)
+{
+    body{
+        width: 100%;
+    }
+
+    nav{
+        display: inline-block;
+    }
+
+    #main-content{
+        columns: 2/3 auto;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        left: 10%
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    body{
+        width: 100%;
+    }
+
+    nav li{
+        width: 100%;
+    }
+
+    #main-content{
+        columns: auto;
+    }
+
+    footer{
+        position: relative;
+        bottom: 0;
+        left: 10%
+    }
+}
+
+/*
+<button id="darkmode" onclick="darkMode()">Dark Mode</button>
+function darkMode() {
+	// add your code here
+    document.querySelector("body").style.background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(132, 2, 2) 50%, rgb(0, 0, 0) 100%);
+    document.querySelector("body").style.color = "white";
+
+}
+*/
